@@ -39,7 +39,7 @@ Location attributes:
 How to update Maxmind Free DBs example:
 #updateGeoIP.sh
 #this script will only download if there is a new version of the database
-  cd /usr/local/share/GeoIP
+  cd /usr/local/share/GeoIP (change to your folder)
   wget -N -q http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
   wget -N -q http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
   wget -N -q http://geolite.maxmind.com/download/geoip/database/GeoIPv6.dat.gz
