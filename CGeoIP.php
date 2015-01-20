@@ -83,7 +83,7 @@ class CGeoIP extends Component {
     if ($ip === null) {
       $ip = Yii::$app->getRequest()->getUserIP();
     }
-    return '118.69.61.190';
+    return $ip;
   }
 
 }
